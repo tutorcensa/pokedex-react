@@ -6,7 +6,7 @@ import DefaultLayout from '../layouts/DefaultLayout';
  * @returns {JSX.Element}
  */
 export const About = () => (
-  <DefaultLayout>
+  <DefaultLayout title='About'>
     <h1>About page</h1>
   </DefaultLayout>
 );
