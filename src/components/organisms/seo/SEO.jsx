@@ -6,7 +6,7 @@ import { Helmet } from 'react-helmet';
  * @param {{title: string}} props
  * @returns {JSX.Element}
  */
-export const SEO = (props) => {
+const SEO = (props) => {
   let title = props.title ? `Pokedex - ${props.title}` : 'Pokedex';
   return (
     <Helmet>

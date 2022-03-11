@@ -1,11 +1,11 @@
 import React from 'react';
-import DefaultLayout from '../layouts/DefaultLayout';
+import DefaultLayout from '../../templates/default-layout/DefaultLayout';
 
 /**
  * About component
  * @returns {JSX.Element}
  */
-export const About = () => (
+const About = () => (
   <DefaultLayout title='About'>
     <h1>About page</h1>
   </DefaultLayout>
