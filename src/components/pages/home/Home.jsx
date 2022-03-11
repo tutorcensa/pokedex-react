@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import DefaultLayout from '../../templates/default-layout/DefaultLayout';
+import DefaultLayout from 'components/templates/default-layout/DefaultLayout';
 
 /**
  * Home component.

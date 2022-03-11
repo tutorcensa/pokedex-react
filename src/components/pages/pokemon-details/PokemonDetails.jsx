@@ -1,5 +1,5 @@
 import React from 'react';
-import DefaultLayout from '../../templates/default-layout/DefaultLayout';
+import DefaultLayout from 'components/templates/default-layout/DefaultLayout';
 
 /**
  * Pokemon details component
