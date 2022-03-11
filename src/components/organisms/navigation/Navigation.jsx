@@ -1,7 +1,7 @@
 import React from 'react';
 import NavBrand from 'components/molecules/nav-brand/NavBrand';
 import NavItems from 'components/molecules/nav-items/NavItems';
-import './Navigation.css'
+import './Navigation.css';
 
 /**
  * Navigation component.
