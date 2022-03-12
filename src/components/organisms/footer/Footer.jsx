@@ -1,9 +1,10 @@
 import React from 'react';
+import './Footer.css'
 
 /**
  * Footer component.
  * @returns {JSX.Element}
  */
-export const Footer = () => <footer></footer>;
+const Footer = () => <footer className='o-footer'>&copy; CENSA 2022</footer>;
 
 export default Footer;
