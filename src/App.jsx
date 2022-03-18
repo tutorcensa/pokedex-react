@@ -14,7 +14,7 @@ export const App = () => (
     <Routes>
       <Route path='/' element={<Home />} />
       <Route path='/about' element={<About />} />
-      <Route path='/pokemon/:id' element={<PokemonDetails />} />
+      <Route path='/pokemon/:name' element={<PokemonDetails />} />
       <Route path='*' element={<NotFound />} />
     </Routes>
   </BrowserRouter>
