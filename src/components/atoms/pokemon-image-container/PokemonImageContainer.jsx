@@ -1,4 +1,5 @@
 import React from 'react';
+import './PokemonImageContainer.css';
 
 const PokemonImageContainer = () => (
   <div className='a-pokemon-image-container'>
