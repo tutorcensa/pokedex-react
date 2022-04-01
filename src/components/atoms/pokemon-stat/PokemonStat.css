@@ -1,0 +1,17 @@
+.a-pokemon-stat {
+  box-sizing: border-box;
+  padding: 0.5rem;
+  width: 50%;
+}
+
+.a-pokemon-stat__name,
+.a-pokemon-stat__value {
+  display: block;
+  font-size: 0.75rem;
+  text-align: center;
+}
+
+.a-pokemon-stat__value {
+  font-size: 1.5rem;
+  margin-top: 0.25rem;
+}

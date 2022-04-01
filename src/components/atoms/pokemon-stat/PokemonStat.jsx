@@ -1,4 +1,5 @@
 import React from 'react';
+import './PokemonStat.css';
 
 const PokemonStat = () => (
   <div className='a-pokemon-stat'>
