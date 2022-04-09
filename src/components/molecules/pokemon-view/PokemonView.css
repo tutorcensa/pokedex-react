@@ -1,0 +1,11 @@
+.m-pokemon-view {
+  align-content: space-between;
+  align-items: center;
+  background-color: var(--color-light-grey);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 31rem;
+  justify-content: flex-start;
+  padding: 2.5rem 10rem;
+}
