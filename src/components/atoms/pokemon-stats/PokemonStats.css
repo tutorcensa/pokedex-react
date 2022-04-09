@@ -1,0 +1,8 @@
+.a-pokemon-stats {
+  background-color: var(--color-white);
+  border-radius: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1.5rem;
+  width: 40%;
+}
