@@ -22,8 +22,8 @@ const PokemonDetails = () => {
     <DefaultLayout title='Detalle'>
       {pokemonData ? (
         <>
-          <PokemonView name={pokemonData.name} image={pokemonData.image} />
-          <RelatedPokemons />
+          <PokemonView pokemon={pokemonData.pokemon} />
+          <RelatedPokemons chain={pokemonData.chain} />
         </>
       ) : (
         <img src={loadingImage} alt='Cargando pokemon...' />

@@ -4,12 +4,15 @@ import PokemonImageContainer from 'components/atoms/pokemon-image-container/Poke
 import PokemonStats from 'components/atoms/pokemon-stats/PokemonStats';
 import './PokemonView.css';
 
-const PokemonView = (props) => (
-  <section className='m-pokemon-view'>
-    <PokemonTitle />
-    <PokemonImageContainer />
-    <PokemonStats />
-  </section>
-);
+const PokemonView = (props) => {
+  const { pokemon } = props;
+  return (
+    <section className='m-pokemon-view'>
+      <PokemonTitle name={pokemon.name} type={pokemon.type} />
+      <PokemonImageContainer image={pokemon.image} />
+      <PokemonStats stats={pokemon.stats} />
+    </section>
+  );
+};
 
 export default PokemonView;
